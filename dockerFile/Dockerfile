@@ -4,8 +4,8 @@ FROM node:20.11.0
 # Set the working directory
 WORKDIR /server
 
-# Copy the app's package.json and install dependencies
-COPY package.json ./
+# Copy the app's package.json, package-lock.json and install dependencies
+COPY package.json package-lock.json ./
 RUN npm install
 
 # Copy the rest of the application code

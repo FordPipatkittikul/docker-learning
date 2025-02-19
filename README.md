@@ -22,6 +22,8 @@ Key Concepts
 
 - Docker's default image "registry" is called Docker Hub
 
+![alt text](<Screenshot (158).png>)
+
 # network concepts
 
 A **virtual network** is a network where all devices, servers, virtual machines, and data centers that are connected are done so through software and wireless technology.
